@@ -1,0 +1,59 @@
+.root{
+	-fx-background-color: #000;
+	-fx-font-size: 17pt;
+	-fx-font-family: "Source Code Pro Black";
+	-fx-border-color: #fff;
+	-fx-border-radius: 20px;
+	-fx-border-width: 5px;
+	-fx-padding: 15px;
+    -fx-border-insets: 15px;
+}
+.label{
+	-fx-text-fill: #fff;
+}
+.button{
+	-fx-background-color: #fff;
+	-fx-background-radius: 10px;
+	-fx-padding: 10px;
+	-fx-min-height: 50px;
+	-fx-min-width: 100px;
+	-fx-text-fill: #000;	
+	}
+.button:armed{
+	-fx-background-color: #f6f6f6;
+	}
+.button:focused{
+	-fx-background-color: #fff;
+	-fx-background-radius: 10px;
+	}	
+.button-number{
+	-fx-min-height: 100px;
+	-fx-min-width: 100px;
+}
+.button-menu{
+	-fx-min-height: 30px;
+	-fx-min-width: 350px;
+}		
+.lrgHeader{
+	-fx-font-size: 36pt;
+	-fx-border-color: #fff;
+	-fx-border-width: 5px 0px;
+    -fx-min-width: 550px;
+  	-fx-alignment:center;
+}
+.button-obj{
+	-fx-min-height: 142.5px;
+	-fx-min-width: 142.5px;	
+} 
+.button-single{
+	-fx-min-height: 20px;
+	-fx-min-width: 330px;	
+}
+.btnMainMenu{
+	-fx-min-height: 20px;
+	-fx-min-width: 300px;	
+}
+.textEntrty{
+	-fx-min-height: 20px;
+	-fx-min-width: 300px;	
+}  
