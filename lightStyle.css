@@ -1,0 +1,55 @@
+.root{
+	-fx-background-color: #fff;
+	-fx-font-size: 18pt;
+	-fx-font-family: "Source Code Pro Black";
+	-fx-border-color: #000;
+	-fx-border-radius: 20px;
+	-fx-border-width: 5px;
+	-fx-padding: 15px;
+    -fx-border-insets: 15px;
+}
+.label{
+	-fx-text-fill: 000;
+}
+.button{
+	-fx-background-color: #000;
+	-fx-background-radius: 10px;
+	-fx-padding: 10px;
+	-fx-min-height: 50px;
+	-fx-min-width: 100px;
+	-fx-text-fill: #fff;	
+	}
+.button:armed{
+	-fx-background-color: #060606;
+	}
+.button:focused{
+	-fx-background-color: #000;
+	-fx-background-radius: 10px;
+	}	
+.button-number{
+	-fx-min-height: 110px;
+	-fx-min-width: 110px;
+}
+.button-menu{
+	-fx-min-height: 30px;
+	-fx-min-width: 350px;
+}		
+.lrgHeader{
+	-fx-font-size: 36pt;
+}
+.button-obj{
+	-fx-min-height: 142.5px;
+	-fx-min-width: 142.5px;	
+} 
+.button-single{
+	-fx-min-height: 20px;
+	-fx-min-width: 360px;	
+}
+.btnMainMenu{
+	-fx-min-height: 20px;
+	-fx-min-width: 300px;	
+}
+.textEntrty{
+	-fx-min-height: 20px;
+	-fx-min-width: 300px;	
+}  
